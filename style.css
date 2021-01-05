@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.float-right {
+    float: right;
+}
+
+.nav {
+    height: 4em;
+    width: 100%;
+    position: absolute;
+    /* background-color: brown; */
+}
+
+.nav li {
+    padding: 0.5em;
+
+}
+
+.list {
+    list-style-type: none;
+    display: inline-block;
+}
+
+/* .lists{
+    list-style-type: none;
+    display: block;
+} */
+.list li {
+    display: inline-block;
+    margin-top: -1em;
+}
+
+.list li a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.list li a:hover {
+    text-decoration: underline;
+}
+
+.dp {
+    position: relative;
+    border-radius: 50%;
+    width: 40%;
+
+}
+
+.img {
+    width: 25%;
+    display: block;
+    margin-left: 38%;
+    margin-bottom: 1px;
+    margin-top: 80px;
+}
+
+.ctrl {
+    display: block;
+}
+
+.bctrl {
+    display: block;
+    margin-left: 38%;
+    /* padding: 50em; */
+
+}
+
+.sb {
+    width: 50%;
+    display: block;
+    padding: 10px;
+    box-shadow: black;
+    margin-bottom: 10px;
+    margin-left: 25%;
+    margin-top: 1px;
+    border: 0% 5% 0% 5%;
+}
+
+.btn {
+    width: 20%;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.langs {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 2em;
+    font-size: 13px;
+}
+
+.langs a {
+    text-decoration: none;
+    color: blue;
+    padding: 0.2em;
+}
+
+.langs a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -1em;
+    margin-top: 7.4em;
+    color: gray;
+    padding: 0.7em;
+    padding-left: 2em;
+    border: 0.1em solid rgb(214, 214, 214);
+    background-color: rgb(240, 239, 239);
+    font-size: 15px;
+}
+
+.list1 {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: -2em;
+    margin-bottom: -10em;
+}
+
+.list1 li {
+    display: inline-block;
+}
+
+.list1 li a {
+    text-decoration: none;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 15px;
+}
+
+.list1 li a:hover {
+    text-decoration: underline;
+}
+.list2 {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: -2em;
+    margin-bottom: -10em;
+    float: right;
+    margin-right: 0.5em;
+}
+
+.list2 li {
+    display: inline-block;
+}
+
+.list2 li a {
+    text-decoration: none;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 15px;
+}
+
+.list2 li a:hover {
+    text-decoration: underline;
+}
+
+.footer1 {
+    margin-top: 30px%;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: -0.7em;
+    color: gray;
+    border: 0.1em solid rgb(214, 214, 214);
+    background-color: rgb(240, 239, 239);
+    margin-bottom: -20em;
+    font-family: 13px;
+    margin-left: -1em;
+}
